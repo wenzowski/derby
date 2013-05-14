@@ -27,6 +27,9 @@
   "engines": {
     "node": ">=0.6.0"
   },
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -b -o ./bin/lib -c ./bin/src"
+  },
   "devDependencies": {
     "coffee-script": ">=1.3.1",
     "expect.js": "*",
