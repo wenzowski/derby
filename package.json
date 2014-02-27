@@ -27,6 +27,7 @@
     "through": "~2.3.4"
   },
   "devDependencies": {
+    "jshint": "~2.4",
     "expect.js": "*",
     "mocha": "*"
   },
