@@ -11,6 +11,10 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*.mocha.js; ./node_modules/.bin/jshint lib/*.js test/*.js"
   },
+  "peerDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-batch": "^0.4.1"
+  },
   "dependencies": {
     "derby-parsing": "~0.1.1",
     "derby-templates": "~0.1.1",
